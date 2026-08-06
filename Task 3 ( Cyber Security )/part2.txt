@@ -1,0 +1,42 @@
+1)
+Normal:
+Hello Username,
+
+We noticed a new sign-in to your account from a Windows device in Alexandria, Egypt. If this was you, no action is required. If you don't recognize this sign-in, please open our official app or visit our official website to secure your account.
+
+Phishing:
+ URGENT SECURITY ALERT 
+
+Your account has been HACKED! We have temporarily suspended your account. Verify your identity within the next 10 minutes or your account will be permanently deleted.
+
+Click here immediately:
+https://secure-account-verify.example
+
+Red Flags:
+- Creates panic and urgency.
+- Threatens account deletion.
+- Uses an unfamiliar link.
+- Doesn't tell you to use the official website or app.
+- May ask for your password or verification code.
+
+====================================================================
+
+2)
+Normal:
+Your package is out for delivery today. You can track your shipment by opening the official courier app or visiting the retailer's website where you placed the order.
+
+Phishing:
+ DELIVERY FAILED!
+
+Your package could not be delivered due to an invalid address. Pay a $1.99 redelivery fee immediately or your package will be returned today.
+
+Pay Now:
+https://delivery-fast.example
+
+Red Flags:
+- Unexpected payment request.
+- Artificial urgency ("today").
+- Suspicious website.
+- Uses fear to pressure you into acting quickly.
+- Small payment requests are commonly used to steal credit card details.
+
