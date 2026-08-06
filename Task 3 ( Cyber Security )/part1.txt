@@ -1,0 +1,11 @@
+dog vs DoG232@ // "dog" is only 3 lowercase letters and a common word. "DoG232@" uses uppercase, lowercase, numbers, and a symbol, making it much harder to guess.
+
+password vs P@ssw0rd92! // "password" is one of the most common passwords. "P@ssw0rd92!" is longer and includes uppercase, lowercase, numbers, and symbols.
+
+admin vs Adm1n#2026 // "admin" is a common default password. "Adm1n#2026" adds length, mixed case, numbers, and a symbol.
+
+qwerty vs Qw3rTy!849 // "qwerty" is a predictable keyboard pattern. "Qw3rTy!849" is longer and mixes different character types.
+
+hello vs H3llO#7421 // "hello" is a simple dictionary word. "H3llO#7421" uses uppercase, lowercase, numbers, and a symbol.
+
+football vs F00tb@ll!92 // "football" is a common dictionary password. "F00tb@ll!92" is longer and includes numbers, uppercase letters, and symbols.
