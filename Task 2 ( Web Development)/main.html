@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Future Mall</title>
+  <!--Made by Mark Richard-->
+    <style>
+        :root{
+            --primary-color: #ff6600;
+            --secondary-color: #333;
+            --background-color: #eeeeee;
+            --text-color: #fff;
+        }
+
+        *{
+            transition: all 0.5s;
+            font-family: cursive;
+            animation: onload 1s;
+        }
+
+        body{
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            background-color: var(--background-color);
+            margin: 0;
+        }
+
+        h1{
+            color: var(--secondary-color);
+            text-align: center;
+            margin: 20px 0 20px;
+            font-size: 3rem;
+        }
+
+        ul{
+            display:grid;
+            grid-template-columns: repeat(5,1fr);
+        }
+        @media screen and (max-width: 600px){
+            ul{
+                grid-template-columns: repeat(2,1fr);
+            }
+        }
+
+        @keyframes onload{
+            0%{
+                transform: scale(0);
+                opacity: 0;
+            }
+            100%{
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+
+        ul li{
+            list-style: none;
+            text-align: center;
+            padding: 20px;
+            background-color: var(--text-color);
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        img{
+            display: block;
+            margin: 20px auto;
+        }
+
+        footer{
+            text-align: center;
+            padding: 20px;
+            background-color: var(--secondary-color);
+            color: var(--text-color);
+            margin-top: auto;
+        }
+
+        ul li:hover{
+            transform: scale(1.1);
+            cursor: pointer;
+        }
+
+        #ctrl{
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background-color: var(--primary-color);
+            color: var(--text-color);
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        p{
+            text-align: center;
+            margin: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Future Mall</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil id illo, mollitia debitis vitae voluptatibus inventore, explicabo nemo, itaque quisquam rem recusandae voluptatum. Autem amet pariatur laudantium! Velit, iste dolor!</p>
+    <div id="container">
+        <ul id="menu">
+            <li>Burger King</li>
+            <li>McDonald's</li>
+            <li>KFC</li>
+            <li>Subway</li>
+            <li>Pizza Hut</li>
+        </ul>
+    </div>
+
+    <img src="" id="logo" width="200px" height="200px">
+    <footer>
+        <p>&copy; 2026 Future Mall. All rights reserved. Made by Mark Richard</p>
+    </footer>
+
+</body>
+</html>
